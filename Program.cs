@@ -17,6 +17,8 @@ namespace DIS_Assignment_1
             int second_half_vowels = 0;
 
 
+            Debug.WriteLine("Helloo I was here - meow");
+
 
             for (int i = 0; i < first_half.Length; i++)
             {
