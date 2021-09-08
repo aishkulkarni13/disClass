@@ -18,25 +18,24 @@ namespace DIS_Assignment_1
 
 
             Debug.WriteLine("Helloo I was here - meow");
-
+            Console.WriteLine("Adding meow meow...bahahahah")
+            string vowels = "aeiou";
 
             for (int i = 0; i < first_half.Length; i++)
             {
-                if (first_half[i] == 'a' || first_half[i] == 'e' || first_half[i] == 'i' || first_half[i] == 'o' || first_half[i] == 'u')
+                if (vowels.Contains(first_half[i]))
                 {
                     first_half_vowels++;
                 }
 
-            }
-
-            for (int i = 0; i < first_half.Length; i++)
-            {
-                if (second_half[i] == 'a' || second_half[i] == 'e' || second_half[i] == 'i' || second_half[i] == 'o' || second_half[i] == 'u')
+                if (vowels.Contains(second_half[i]))
                 {
                     second_half_vowels++;
                 }
-
             }
+
+
+
 
             if (first_half_vowels == second_half_vowels)
             {
